@@ -4,7 +4,6 @@ import React from 'react';
 
 const Task = ({id, name, description, completed}) => {
 
-  
   const TaskLog = (id, completed) => {
     console.log('Task ' + id + ' completed status = ' + completed);
   }
